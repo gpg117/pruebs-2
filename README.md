@@ -24,6 +24,8 @@ Conectamos el cable FTDI a la computadora y abrimos el administrador de disposit
 
 Abrimos el programa FemtoFirmwareLoader y seleccionamos el COM abierto por el cable FTDI. Buscamos el archivo .txt dentro de la carpeta "debug" contenida en la carpeta del proyecto.
 
-Quitamos la alimentacion del Loka y conectamos nuestro cable FTDI al Loka.
+Quitamos la alimentación del Loka y conectamos nuestro cable FTDI al Loka. Conectamos TX(Loka)->RX(cable) y RX(Loka)->TX(cable)
+
+
 
 
