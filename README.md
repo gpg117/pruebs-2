@@ -1,6 +1,5 @@
 # pruebs-2
-
-===============
+==========
 
 -   [Introducción](#introduccion)
 
@@ -18,4 +17,12 @@ Requerimientos
 -   Sensor de temperatura TMP36.
 
 Compilar Proyecto
-=================
+-----------------
+Una vez descargado el programa Code Composer Studio, abrimos el programa y seleccionamos la ruta donde tenemos la carpeta de nuestro proyecto. Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
+
+
+Conectamos el cable FTDI a la computadora y abrimos el administrador de dispositivos para cambiar la frecuencia del puerto COM de 9600 a 115200 bits por segundo.
+
+Abrimos el programa FemtoFirmwareLoader y seleccionamos el COM abierto por el cable FTDI. Buscamos el archivo .txt dentro de la carpeta "debug" contenida en la carpeta del proyecto.
+
+Quitamos la alimentacion del Loka y conectamos nuestro cable FTDI al Loka.
