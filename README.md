@@ -1,5 +1,4 @@
 # pruebs-2
-==========
 
 -   [Introducción](#introduccion)
 
